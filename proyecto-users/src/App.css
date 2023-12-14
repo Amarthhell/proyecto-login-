@@ -9,8 +9,8 @@ body {
 /*Posición de la imagen*/
 .ArchiByte_log {
   position: absolute;
-  top: 21.5%;
-  left: 50%;
+  top: 19%;
+  left: 17%;
   transform: translate(-21.5%, -50%);
   width: 400px;
   height: auto; 
@@ -19,8 +19,8 @@ body {
 /*Cuadro de Inicio*/
 .formulario {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 60%;
+  left: 17%;
   transform: translate(-50%, -50%);
   width: 400px;
   background: white;
@@ -98,4 +98,12 @@ input[type="submit"] {
   color: white;
   cursor: pointer;
   outline: none;
+}
+.archivando {
+  position: absolute;
+  top: 50%;
+  left: 42%;
+  transform: translate(-21.5%, -50%);
+  width: 400px;
+  height: auto; 
 }
